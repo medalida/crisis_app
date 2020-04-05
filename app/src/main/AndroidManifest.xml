@@ -10,26 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".regester" />
-
         <activity
             android:name=".regester"
-            android:label="@string/title_activity_regester"
-            tools:ignore="DuplicateActivity" />
-
+            android:label="@string/title_activity_regester" />
         <activity
             android:name=".face"
             android:label="@string/title_activity_face">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".login" />
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
