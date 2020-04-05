@@ -48,9 +48,9 @@
             android:layout_margin="40dp"
             android:background="#2C3C8F"
             android:gravity="center"
+            android:onClick="login"
             android:text="Login"
-            android:textSize="24sp"
-            tools:onClick="login" />
+            android:textSize="24sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
