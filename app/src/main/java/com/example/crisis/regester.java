@@ -1,4 +1,4 @@
-package com.example.crisis.ui.login;
+package com.example.crisis;
 
 import androidx.appcompat.app.AppCompatActivity;
 

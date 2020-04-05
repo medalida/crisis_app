@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.crisis.ui.login.regester;
-
 public class login extends AppCompatActivity {
 
     @Override
@@ -21,7 +19,8 @@ public class login extends AppCompatActivity {
 
     }
     public void login(View v){
-        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        Intent intent = new Intent(this, homevolunteer.class);
+        startActivity(intent);
 
     }
 }
