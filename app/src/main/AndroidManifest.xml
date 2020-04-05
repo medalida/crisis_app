@@ -14,6 +14,9 @@
             android:name=".regester"
             android:label="@string/title_activity_regester" />
         <activity
+        android:name=".homevolunteer"
+        android:label="@string/title_activity_regester" />
+        <activity
             android:name=".face"
             android:label="@string/title_activity_face">
             <intent-filter>
