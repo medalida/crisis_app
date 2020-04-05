@@ -4,7 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".scheduleFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Covid-19 Crisis"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -23,6 +33,31 @@
         android:textStyle="bold"
         android:text="Saturday April 5th \n 10:00 To 14:00"
         android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:textAlignment="center"
+        android:text="Did you get a call?"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the form"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fill with the caller information and do an action"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="10dp"/>
+
 
 
 
