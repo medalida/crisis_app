@@ -1,10 +1,13 @@
-package com.example.crisis;
+package com.example.crisis.ui.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.crisis.MainActivity;
+import com.example.crisis.R;
 
 public class regester extends AppCompatActivity {
 
@@ -15,6 +18,6 @@ public class regester extends AppCompatActivity {
     }
     public  void reges(View v)
     {
-        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 }

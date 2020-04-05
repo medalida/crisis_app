@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.crisis.ui.login.regester;
+
 public class login extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,7 @@ public class login extends AppCompatActivity {
 
     }
     public void singup(View v){
-        startActivity(new Intent(getApplicationContext(),regester.class));
+        startActivity(new Intent(getApplicationContext(), regester.class));
 
     }
     public void login(View v){

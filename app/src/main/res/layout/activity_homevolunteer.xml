@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".homevolunteer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Hi"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/volunteer_name"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/volunteer_name"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:text="@string/schedule_message"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Covid-19 Crisis"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:id="@+id/schedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"/>
+
+
+
+
+
+
+
+</LinearLayout>
