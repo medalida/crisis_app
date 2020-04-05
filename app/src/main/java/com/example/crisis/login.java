@@ -19,7 +19,7 @@ public class login extends AppCompatActivity {
 
     }
     public void singup(View v){
-        startActivity(new Intent(getApplicationContext(), regester.class));
+        startActivity(new Intent(getApplicationContext(), regester  .class));
 
     }
     public void login(View v){

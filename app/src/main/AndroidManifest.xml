@@ -10,12 +10,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Submit"></activity>
+        <activity android:name=".CallForm" />
         <activity
             android:name=".regester"
             android:label="@string/title_activity_regester" />
         <activity
-        android:name=".homevolunteer"
-        android:label="@string/title_activity_regester" />
+            android:name=".homevolunteer"
+            android:label="Profile" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".CallForm" />
         <activity
             android:name=".face"
             android:label="@string/title_activity_face">
@@ -26,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".login" />
+        <activity android:name=".Submit" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
