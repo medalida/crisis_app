@@ -9,6 +9,11 @@
     <string name="navigation_drawe_open">Open navigation Drawer</string>
     <string name="navigation_drawe_close">Close navigation Drawer</string>
 
+    <string name="doc">Manage Doctors</string>
+    <string name="vol">Manage Volunteers</string>
+    <string name="Schedule">Schedule</string>
+
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
