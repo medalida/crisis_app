@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">crisis</string>
+    <string name="app_name">Criscell</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -30,4 +30,10 @@
     <string name="login_failed">"Login failed"</string>
     <string name="volunteer_name"></string>
     <string name="schedule_message">we\'ve got you Your volunteering schedules For</string>
+    <array name="entr">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+    <string name="subtext">Full Name: Oussama SALAHOUELHADJ.\nGender: Mele.\nDate of birth: 24/05/2000\nAdress: city center, Ghardaia, Algeria.\nPhone number: +213797536313.\n\nDoes the patient have any chronic diseases?\n - Diabetes.\n - Cardiovascular disease.\n\nSymptoms:\n - high temperature.\n - Severe cough.\n - breathing difficulties\n - headache.\n\n*He was in infected area: Blida province.\n*He was not in direct contact with somone infected.</string>
+
 </resources>

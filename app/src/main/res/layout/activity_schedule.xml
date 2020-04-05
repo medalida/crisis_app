@@ -59,7 +59,8 @@
             android:padding="16dp"
             android:layout_marginTop="16dp"
             android:background="@android:color/holo_orange_dark"
-            android:textColor="@android:color/background_light"/>
+            android:textColor="@android:color/background_light"
+            android:onClick="fillForm"/>
 
         <TextView
             android:layout_width="wrap_content"

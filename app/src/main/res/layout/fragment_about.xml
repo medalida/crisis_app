@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".about">
+    tools:context=".about"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:src="@drawable/logo"
+        android:layout_height="0dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="7">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="set about here" />
+        android:layout_height="wrap_content"
+        android:text="what is Criscell?"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="34dp"
+        android:textAlignment="center"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:text="When Crisis happens people need to calm down and find solutions to the problem in the fastest way they can. \nIn critical times, we recommand small communities to create a crisis cell that manage that community needs and orginize volunteers to the best, healthiest solutions and to avoid worsts senarios.\nCriscell comes as a solution to orgnizing and create Crises cells, which contains a powerful, easy tools to orgnize volunteers, keep tracking suspected cases and doing actions in real time." />
+</LinearLayout>
+</LinearLayout>

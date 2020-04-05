@@ -20,15 +20,16 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                app:srcCompat="@drawable/home"
-                android:scaleType="center"/>
+                app:srcCompat="@drawable/imagehome"
+                android:scaleType="centerCrop"/>
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
                 android:text="Creat a Crisis Cell"
                 android:textColor="#000000"
                 android:textSize="36sp" />
@@ -40,15 +41,16 @@
                 android:layout_gravity="center_horizontal"
                 android:text="and manage your community health"
                 android:textColor="#000000"
-                android:textSize="24sp" />
+                android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="30dp"
-                android:text="ddgbxgngfnfxbgnsdgnn"
+                android:layout_marginTop="4dp"
+                android:text="Invite doctors / volunteers to hundle suspected cases \nand volunteer in supervising them."
+                android:textAlignment="center"
                 android:textColor="#000000" />
 
             <Button
@@ -56,11 +58,13 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="40dp"
-                android:background="#01FF2B"
+                android:layout_marginTop="24dp"
+                android:background="#4CAF50"
                 android:onClick="regester"
                 android:text="register"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
         </LinearLayout>
     </ScrollView>
 
